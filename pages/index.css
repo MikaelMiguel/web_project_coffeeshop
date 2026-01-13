@@ -84,7 +84,7 @@
     color: #2F80ED;
 }
 
-.header__span-accent--black{
+.header__span-accent-black{
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -93,7 +93,7 @@
     letter-spacing: -1px;
 }
 
-.header__descripition{
+.header__description{
     position: relative;
     top:252px;
     left: 80px;
