@@ -42,7 +42,7 @@
     right: 80px;
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    list-style-type: none;/*remove os pontos da lista*/
     align-items: center;
     column-gap: 20px;
     padding:0;
@@ -118,23 +118,23 @@
 }
 
 .header__footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.header__footer-description{
     position: absolute;
-    list-style-type: none; /*remove os pontos da lista*/
     left: 80px;
     bottom: 40px;
     margin: 0;
     padding: 0;
+
 }
 
 .header__paragraph{
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
     margin: 0;
     padding: 0;
-}
-
-.header__footer-font{
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -142,6 +142,15 @@
     line-height: 20px;
     color: #838383
 }
+
+.header__paragraph-right{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    margin: 0;
+    padding: 0;
+}
+
 /*=MAIN=*/
 .content{
     
