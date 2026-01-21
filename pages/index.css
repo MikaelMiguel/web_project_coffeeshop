@@ -241,7 +241,7 @@
 }
 /*====formulário====*/
 .reservation__title{
-    margin: 100px auto 0;
+    margin: 100px auto 80px;
     padding: 0;
     font-family: Inter;
     font-style: normal;
@@ -251,7 +251,7 @@
 }
 
 .reservation__form{
-    margin: 80px auto 120px;
+    margin: 0px auto 120px;
     max-width: 385px;
 }
 
@@ -320,7 +320,7 @@ input::placeholder {
     opacity: 70%;
 }
 
-.form__label--checkbox{
+.form__label-checkbox{
     display: flex;
     flex-direction: row-reverse;
     margin: auto;
