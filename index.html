@@ -63,6 +63,52 @@
                 </div>    
             </section>
             <section class="reservation" id="Reservation">
+                    <h2 class="reservation__title">Reservar uma mesa</h2>
+                    <form class="reservation__form form" action="#">
+                        <fieldset class="form__fieldset">
+                            <label class="form__label" for="nome">Nome: *</label>
+                            <input 
+                                class="form__input"
+                                type="text"
+                                required
+                                placeholder="Nome"
+                                id="nome"
+                            >
+                            <label class="form__label" for="convidados">Número de convidados: *</label>
+                            <input 
+                                class="form__input"
+                                type="number"
+                                min="1"
+                                max="8"
+                                required
+                                placeholder="1-8"
+                                id="convidados"
+                            >
+                            <label class="form__label" for="dataHora">Data e hora: *</label>
+                            <input 
+                                class="form__input" 
+                                type="date"
+                                required
+                                id="dataHora"
+                            >
+                            <label class="form__label" for="email">Seu e-mail: *</label>
+                            <input 
+                                class="form__input" 
+                                type="email"
+                                required
+                                placeholder="email@email.com"
+                                id="email"
+                            >
+                        </fieldset>
+                        <button class="form__button">Reservar uma mesa</button>
+                        <label class="form__label form__label--checkbox">
+                            Eu concordo com os termos de uso
+                            <input
+                                class="form__checkbox" 
+                                type="checkbox" 
+                            >
+                        </label>
+                    </form>
             </section>
         </main>
         <footer class="footer" id="Contatos">
