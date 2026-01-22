@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth; /* Scroll suave para toda a página */
+}
 .page{
     min-width: 1100px;
     max-width: 1600px;
